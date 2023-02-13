@@ -8,7 +8,7 @@ Beats Landing Page using HTML and CSS
 
 ### Created by - Vivek More
 
-**Beats Landing Page** - [Live Link]()
+**Beats Landing Page** - [Live Link](https://mrvivekmore-beats-landing-page.netlify.app/)
 
 ---
 
