@@ -1,0 +1,173 @@
+/* ------------------------------ */
+/* -------- BELOW 750px --------- */
+/* ------------------------------ */
+
+@media (max-width: 750px) {
+  .menubar {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 11;
+    margin-right: 5%;
+  }
+
+  .hero {
+    padding: 10px 0 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-textbox {
+    max-width: 400px;
+    margin: 420px auto 0;
+  }
+
+  .section-logos {
+    margin-top: 100px;
+  }
+
+  .section-specs {
+    margin-top: 120px;
+  }
+
+  .specs-head {
+    margin-bottom: 80px;
+  }
+
+  .specs-main {
+    gap: 24px;
+  }
+
+  .section-case {
+    margin-top: 140px;
+  }
+
+  .case-head {
+    margin-bottom: 80px;
+  }
+
+  .section-cta {
+    margin: 140px 0;
+  }
+
+  .cta {
+    padding: 30px 50px;
+    gap: 24px;
+  }
+
+  .choose-head {
+    margin-bottom: 120px;
+  }
+
+  .choose-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .choose-main .choose-box {
+    justify-self: center;
+  }
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .logo-col,
+  .footer .link-col {
+    justify-self: center;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 550px --------- */
+/* ------------------------------ */
+
+@media (max-width: 550px) {
+  .onear-img {
+    max-width: 280px;
+    margin-left: 40px;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+  }
+
+  .specs-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .specs-textbox {
+    order: 2;
+    max-width: 350px;
+    margin: 40px auto 0;
+  }
+
+  .specs-imgbox {
+    order: 1;
+  }
+
+  .specbox:first-child {
+    margin-left: 0;
+  }
+
+  .specbox:last-child {
+    margin-left: 0;
+  }
+
+  .section-case {
+    margin-top: 80px;
+  }
+
+  .case-main {
+    grid-template-columns: 1fr;
+  }
+
+  .case-textbox {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .section-cta {
+    margin: 140px 0 120px;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+    padding: 30px 30px;
+  }
+
+  .cta-textbox {
+    order: 2;
+  }
+
+  .cta-imgbox {
+    order: 1;
+  }
+
+  .section-choose {
+    margin-bottom: 120px;
+  }
+
+  .choose-head img {
+    max-width: 400px;
+  }
+
+  .choose-main {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    margin-bottom: 80px;
+  }
+
+  .footer {
+    gap: 20px;
+  }
+
+  .social-media {
+    flex-wrap: wrap;
+  }
+}
